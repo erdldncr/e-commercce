@@ -74,6 +74,9 @@ font-weight: bold;
 .row.center{
   justify-content: center;
 }
+.row.top{
+  align-items: flex-start;
+}
 /* image */
 
 img{
