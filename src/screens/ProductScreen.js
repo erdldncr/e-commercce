@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Rating from "../components/Rating";
 import data from "../data";
 
@@ -23,6 +23,7 @@ export default function ProductScreen() {
 
   return (
     <div>
+      <Link to='/' >Back to Result</Link>
       <div className="row top">
         <div className="col-2">
           <img className="large" src={image} alt={name} />
